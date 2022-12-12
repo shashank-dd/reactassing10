@@ -1,0 +1,98 @@
+html, body {
+  height: 100%;
+  background-color: #3c415e;
+}
+
+#master {
+  height: 75vh;
+  width: 75vw;
+  margin: auto;
+display:flex ;
+flex-wrap: wrap;
+  padding-top: 10%;
+  border: 1px rgb(15, 194, 15) solid ;
+}
+
+#root {
+  height: 100%;
+}
+
+.heading {
+  color: white;
+  text-align: center;
+  position: relative;
+  top: -15%;
+}
+#pp{
+  width: 60%;
+  margin: auto;
+  padding: 10px auto;
+  border: 1px green solid;
+}
+#gg{
+  width: 100px;
+  height: 100px;
+  border: 1px green solid;
+}
+.row {
+ margin: auto;
+  width: 90%;
+  height: 300px;
+  display: flex;
+justify-content:space-between;
+flex-wrap: wrap;
+padding: 0px 350px;
+}
+
+button {
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 14px 12px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.btn-blue {
+  background: rgb(34, 193, 195);
+  color: black;
+  width: 100px;
+  height: 60px;
+ 
+  text-align: center;
+  padding: 10px 10px;
+}
+
+.btn-orange {
+  background: rgb(221, 112, 18);
+  color: black;
+  width: 100px;
+  height: 60px;
+  padding: 10px 10px;
+}
+
+.btn-green {
+  background: rgb(44, 209, 88);
+  color: black;
+  width: 100px;
+  height: 60px;
+  padding: 10px 10px;
+ 
+}
+
+.fix-box {
+  width: 250px;
+  height: 250px;
+  margin: 20px;
+  border: 1px white dotted;
+  border-radius: 5px;
+}
+
+
+.heading{
+  padding: 0px auto;
+  color: white;
+  text-align: center;
+}
